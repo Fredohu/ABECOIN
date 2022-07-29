@@ -17,7 +17,7 @@ contract AbeCoin is ERC20, ERC20Burnable, Ownable {
   uint256 private MAXSUP;
   uint256 constant MAXIMUMSUPPLY=9000000*10**18;
 
-  constructor() ERC20("HYBRIDX", "HBDX") { 
+  constructor() ERC20("AbeCoin", "ABE") { 
       _mint(msg.sender, 1000000 * 10 ** 18);
 
   }
